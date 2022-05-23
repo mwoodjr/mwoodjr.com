@@ -40,13 +40,6 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-/*app.get('/deeznuts/', function (req, res){
-    res.render('deeznuts', {
-        title: "EJS example",
-        header: "Some users"
-      })
-})*/
-
 /* istanbul ignore next */
 if (!module.parent) {
   app.listen(8080);
